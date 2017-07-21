@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Title</title>
+</head>
+
+
+  <body>
+   {% for obj in data %}
+   
+   {{ obj.invoice_id }} <br/>
+  
+   <HR SIZE=1><br/>
+   {{ obj.customer_name }}<br/>
+   {{ obj.amount }}<br/>
+   {{ obj.Date }}
+
+   {% endfor %}
+  </body>
+</html>

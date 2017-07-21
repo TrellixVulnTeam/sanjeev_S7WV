@@ -1,0 +1,23 @@
+
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | PracticeForAdmin{% endblock %}
+
+
+{% block extrastyle %}
+<style>	
+#header {
+
+background-color: #058BCC;
+
+}
+
+</style>
+
+{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Lumina_DataMatics</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
